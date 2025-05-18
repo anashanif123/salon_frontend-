@@ -1,8 +1,6 @@
 import { Link } from 'react-router-dom';
 import { motion, useAnimation } from 'framer-motion';
 import { useState, useEffect } from 'react';
-// import axios from 'axios';
-import api from '../lib/api.js';
 import TestimonialCard from '../components/TestimonialCard.jsx';
 
 const testimonials = [
@@ -31,7 +29,8 @@ const Home = () => {
   useEffect(() => {
     const fetchDeals = async () => {
       try {
-        const response = await api.get('/deals');
+        const response = await axios.get(import.meta.env.VITE_API_BASE_URL + '/deals');
+
         console.log('API response:', response.data);
         setDeals(response.data);
         controls.start({ opacity: 1, y: 0 });

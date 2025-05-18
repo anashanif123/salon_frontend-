@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://backend-salon-kappa.vercel.app/api',
+  baseURL: 'https://backend-salon-kappa.vercel.app/',
 });
 
 // Request interceptor
