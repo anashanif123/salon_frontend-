@@ -21,4 +21,4 @@ export const deleteService = id => api.delete(`/services/${id}`);
 export const createBooking = data => api.post('/bookings', data);
 export const getBookings = () => api.get('/admin/bookings');
 export const getUsers = () => api.get('/admin/users');
-export const getDeals = () => api.get('/deals');
+export const getDeals = () => api.get('/api/deals');
