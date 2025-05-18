@@ -1,0 +1,64 @@
+/* Footer.css */
+
+.app-footer {
+  background-color: #2F2F2F; /* Dark Gray - consistent with previous UI suggestions */
+  color: #E0E0E0; /* Light gray text for good contrast on dark background */
+  padding: 40px 20px; /* Increased padding for better spacing */
+  text-align: center;
+  font-size: 0.9rem; /* Slightly smaller base font size for footer */
+  line-height: 1.6;
+}
+
+.footer-content {
+  max-width: 800px; /* Constrain width for better readability of centered text */
+  margin: 0 auto;
+}
+
+.app-footer p {
+  margin-bottom: 8px; /* Space between paragraphs */
+}
+
+.app-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.copyright {
+  font-weight: 500; /* Slightly bolder for the copyright line */
+}
+
+.contact-info {
+  font-size: 0.85rem; /* Slightly smaller for less emphasis */
+  color: #BDBDBD; /* Even lighter gray for secondary info */
+}
+
+/* Optional: Styling for social media links if you add them */
+.footer-social-links {
+  margin-top: 16px;
+}
+
+.footer-social-links a {
+  color: #D4A017; /* Muted Gold - consistent accent */
+  text-decoration: none;
+  margin: 0 8px;
+  transition: color 0.3s ease;
+}
+
+.footer-social-links a:hover {
+  color: #FFFFFF; /* White on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .app-footer {
+    padding: 30px 15px; /* Adjust padding for smaller screens */
+    font-size: 0.85rem;
+  }
+
+  .contact-info {
+    font-size: 0.8rem;
+  }
+
+  .app-footer p {
+    margin-bottom: 10px;
+  }
+}

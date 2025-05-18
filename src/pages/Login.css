@@ -1,0 +1,158 @@
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.login-box {
+  display: flex;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  max-width: 1000px;
+  width: 100%;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.left-panel {
+  width: 50%;
+  padding: 40px;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left-panel h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.left-panel p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.benefits-box {
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.benefits-title {
+  display: inline-block;
+  background-color: #fff2b3;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.benefits-box ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 13px;
+  color: #333;
+}
+
+.benefits-box li {
+  margin-bottom: 6px;
+}
+
+.right-panel {
+  width: 50%;
+  padding: 40px;
+  background-color: #ffffff;
+}
+
+.form-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.form-header h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.form-header p {
+  color: #666;
+  font-size: 14px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.form-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.forgot {
+  color: #666    ;
+  cursor: pointer;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #6c5ce7;
+  color: white;
+  padding: 12px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.submit-btn:hover {
+  background-color: #6c5ce7;
+}
+
+.toggle-link {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 16px;
+}
+
+.toggle-link button {
+  background: none;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  font-weight: 600;
+  margin-left: 6px;
+}

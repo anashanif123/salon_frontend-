@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "title": "Summer Haircut Special",
+    "description": "Get 20% off any haircut service this month!",
+    "discount": "20%",
+    "expiryDate": "2025-06-01T23:59:59Z"
+  },
+  {
+    "id": "2",
+    "title": "Facial Package Deal",
+    "description": "Buy 2 facials, get the 3rd free!",
+    "discount": "1 Free",
+    "expiryDate": "2025-05-25T23:59:59Z"
+  },
+  {
+    "id": "3",
+    "title": "Manicure Discount",
+    "description": "Enjoy 15% off all manicure services.",
+    "discount": "15%",
+    "expiryDate": "2025-05-30T23:59:59Z"
+  }
+]
