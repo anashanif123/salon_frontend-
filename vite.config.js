@@ -7,7 +7,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'https://backend-salon-kappa.vercel.app', // Updated to correct backend URL
+        target: 'http://localhost:5000',
         changeOrigin: true,
       },
     },

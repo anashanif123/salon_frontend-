@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { motion, useAnimation } from 'framer-motion';
 import { useState, useEffect } from 'react';
-import axios from 'axios';
+import { getDeals } from '../lib/api.js';
 import TestimonialCard from '../components/TestimonialCard.jsx';
 
 const testimonials = [
@@ -30,14 +30,11 @@ const Home = () => {
   useEffect(() => {
     const fetchDeals = async () => {
       try {
-        const response = await axios.get(import.meta.env.VITE_API_BASE_URL + '/deals');
-
-        console.log('API response:', response.data);
+        const response = await getDeals();
         setDeals(response.data);
         controls.start({ opacity: 1, y: 0 });
       } catch (error) {
-        console.error('Error fetching deals:', error.message);
-        setDeals([]); // Ensure deals is empty on error
+        setDeals([]);
       } finally {
         setLoading(false);
       }
