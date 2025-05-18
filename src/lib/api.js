@@ -12,8 +12,8 @@ api.interceptors.request.use(config => {
   return config;
 });
 
-export const login = data => api.post('/auth/login', data);
-export const register = data => api.post('/auth/register', data);
+export const login = data => api.post('/api/auth/login', data);
+export const register = data => api.post('/api/auth/register', data);
 export const getServices = () => api.get('/services');
 export const createService = data => api.post('/services', data);
 export const updateService = (id, data) => api.put(`/services/${id}`, data);
