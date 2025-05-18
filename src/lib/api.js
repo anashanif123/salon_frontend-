@@ -15,10 +15,10 @@ api.interceptors.request.use(config => {
 export const login = data => api.post('/api/auth/login', data);
 export const register = data => api.post('/api/auth/register', data);
 export const getServices = () => api.get('/api/services');
-export const createService = data => api.post('/api/services/', data);
-export const updateService = (id, data) => api.put(`/api/services/${id}`, data);
-export const deleteService = id => api.delete(`/api/services/${id}`);
-export const createBooking = data => api.post('/bookings', data);
-export const getBookings = () => api.get('/admin/bookings');
-export const getUsers = () => api.get('/admin/users');
+export const createService = data => api.post('/api/services', data);
+export const updateService = (id, data) => api.put(`/api/services${id}`, data);
+export const deleteService = id => api.delete(`/api/services${id}`);
+export const createBooking = data => api.post('/api/bookings', data);
+export const getBookings = () => api.get('/api/admin/bookings');
+export const getUsers = () => api.get('/api/admin/users');
 export const getDeals = () => api.get('/api/deals');
