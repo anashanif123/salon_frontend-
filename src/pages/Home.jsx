@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { motion, useAnimation } from 'framer-motion';
 import { useState, useEffect } from 'react';
+import axios from 'axios';
 import TestimonialCard from '../components/TestimonialCard.jsx';
 
 const testimonials = [
